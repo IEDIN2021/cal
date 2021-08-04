@@ -37,6 +37,14 @@ function division(){
     operations = "division"
 }
 
+function multiplication(){
+    let elem = document.getElementById("insertNum");
+    firstinput = parseInt(elem.value);
+    elem.value  = "" 
+    console.log("firstINput", firstinput)
+    operations = "multiplication"
+}
+
 function resultat(){
     let elem = document.getElementById("insertNum");
     let secondInput = parseInt(elem.value);
@@ -46,26 +54,3 @@ function resultat(){
         elem.value  = resultat.toString()
         //document.getElementById("insertNum").value = resultat.toString();
     }
-
-    if (operations === "soustraction"){
-        let resultat = firstinput-secondInput
-        //console.log("ffdfdf", resultat)
-        elem.value  = resultat.toString()
-        //document.getElementById("insertNum").value = resultat.toString();
-    }
-    if (operations === "division"){
-        let resultat = firstinput / secondInput
-        //console.log("ffdfdf", resultat)
-        elem.value  = resultat.toString()
-        //document.getElementById("insertNum").value = resultat.toString();
-    }
-    if (operations === "multiplication"){
-        let resultat = firstinput * secondInput
-        //console.log("ffdfdf", resultat)
-        elem.value  = resultat.toString()
-        //document.getElementById("insertNum").value = resultat.toString();
-    }
-
-
-}
-
