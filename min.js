@@ -13,4 +13,3 @@ function add(){
     console.log("firstINput", firstinput)
     operations = "addition"
 }
-
