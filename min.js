@@ -36,3 +36,15 @@ function division(){
     console.log("firstINput", firstinput)
     operations = "division"
 }
+
+}
+function multiplication(){
+    let elem = document.getElementById("insertNum");
+    firstinput = parseInt(elem.value);
+    elem.value  = "" 
+    console.log("firstINput", firstinput)
+    operations = "multiplication"
+}
+
+
+
