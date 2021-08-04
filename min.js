@@ -13,3 +13,9 @@ function add(){
     console.log("firstINput", firstinput)
     operations = "addition"
 }
+
+// REMOVE ALL OF IT
+function ce(){
+    document.getElementById("insertNum").value = '';
+    //let elem = document.getElementById("insertNum");
+}
