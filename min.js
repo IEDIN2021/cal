@@ -19,3 +19,11 @@ function ce(){
     document.getElementById("insertNum").value = '';
     //let elem = document.getElementById("insertNum");
 }
+
+function soustraction(){
+    let elem = document.getElementById("insertNum");
+    firstinput = parseInt(elem.value);
+    elem.value  = "" 
+    console.log("firstINput", firstinput)
+    operations = "soustraction"
+}
