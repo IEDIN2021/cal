@@ -27,3 +27,12 @@ function soustraction(){
     console.log("firstINput", firstinput)
     operations = "soustraction"
 }
+
+
+function division(){
+    let elem = document.getElementById("insertNum");
+    firstinput = parseInt(elem.value);
+    elem.value  = "" 
+    console.log("firstINput", firstinput)
+    operations = "division"
+}
