@@ -5,7 +5,7 @@
 let operations;
 let firstinput;
 
-// func d'addition PART 1
+// func d'addition PART 1 test du  add
 function add(){
     let elem = document.getElementById("insertNum");
     firstinput = parseInt(elem.value);
